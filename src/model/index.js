@@ -7,7 +7,7 @@ const history = require("./history").history
 
 const connect = async ()=>{
     try{
-        await mongoose.connect(process.env.connection_string)
+        await mongoose.connect(process.env.MONGO_URI)
         console.log("connect succesfull")
     }
     catch(error){
