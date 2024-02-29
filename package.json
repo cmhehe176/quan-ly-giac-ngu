@@ -1,12 +1,12 @@
 {
-    "name": "s-care-backend",
+    "name": "ndmc-project",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon --exec ./node_modules/.bin/babel-node src/server.js"
     },
-    "author": "",
+    "author": "ndmc",
     "license": "ISC",
     "dependencies": {
         "body-parser": "^1.20.2",
